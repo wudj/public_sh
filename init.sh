@@ -2,7 +2,7 @@
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/wudj/public_sh/master/init.sh)
 # 此文件放在 Java 项目的 web/script 目录下，请在 web/script 目录下执行
 
-cd ../src/main/ \
+cd ./src/main/ \
     && git clone git@git.souche.com:souche-f2e/sad-template.git \
     && mv sad-template antd \
     && rm -rf ./antd/.git \
